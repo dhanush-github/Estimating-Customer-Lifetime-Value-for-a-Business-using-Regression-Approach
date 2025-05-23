@@ -24,9 +24,6 @@
    - Predicted vs. actual plots
    - Business interpretation of results
 
-## 📒 Notebooks
-
-- [cltv_notebook.ipynb](notebooks/cltv_notebook.ipynb): Full end-to-end workflow, from data cleaning to model evaluation and final insights.
 
 ## 🛠️ Dependencies
 
