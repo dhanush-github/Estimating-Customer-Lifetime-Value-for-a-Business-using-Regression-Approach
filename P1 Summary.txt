@@ -1,0 +1,1 @@
+Developed a regression-based Customer Lifetime Value (CLTV) prediction model using the Beta-Geometric/Negative Binomial Distribution (BG/NBD) to model customer purchase frequency and the Gamma-Gamma model to estimate monetary value. Leveraged Python and the Lifetimes library to analyze transaction data, forecast revenue potential, and enable targeted retention strategies.
