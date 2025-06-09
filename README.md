@@ -1,40 +1,35 @@
+# 🛒 Estimating Customer Lifetime Value (CLTV) for Olist
 
-## 🚀 Workflow
+A data science project to predict Customer Lifetime Value (CLTV) for an e-commerce marketplace using regression modeling. This enables the business to target valuable customers, improve retention, and drive marketing ROI.
 
-1. **Data Collection & Exploration**
-   - Load customer and transaction data
-   - Initial EDA: missing values, outliers, trends
+## 📑 Project Overview
 
-2. **Feature Engineering**
-   - RFM features (Recency, Frequency, Monetary)
-   - Tenure, average order value, etc.
-   - Encoding categorical variables
+Olist is a Brazilian e-commerce marketplace. The goal is to estimate each customer's lifetime value based on their purchase history and behavioral data, using advanced data analysis and machine learning techniques.
 
-3. **Model Development**
-   - Baseline: Linear Regression
-   - Advanced: Ridge, Lasso, Random Forest, XGBoost
-   - Hyperparameter tuning with GridSearchCV
+**Key Objectives:**
+- Clean and engineer features from raw transactional data
+- Build and evaluate regression models to predict CLTV
+- Provide actionable insights for marketing and customer segmentation
 
-4. **Model Evaluation**
-   - Performance metrics: RMSE, MAE, R² score
-   - Cross-validation
+## 🛠️ Features & Workflow
 
-5. **Visualization & Insights**
-   - Feature importance
-   - Predicted vs. actual plots
-   - Business interpretation of results
+- **Data Preprocessing:**  
+  - Merging and cleaning multiple data sources (orders, customers, products)
+  - Feature engineering: RFM (Recency, Frequency, Monetary) metrics, and customer behavior patterns
+
+- **Exploratory Data Analysis (EDA):**  
+  - Analyzing purchase trends, customer cohorts, and target variable distribution
+
+- **Modeling:**  
+  - Regression models (Linear Regression, Decision Tree Regressor, Random Forest, XGBoost)
+  - Cross-validation and hyperparameter tuning
+
+- **Evaluation:**  
+  - RMSE, MAE metrics
+  - Model interpretability using feature importance
+
+- **Actionable Insights:**  
+  - Segmenting customers by predicted CLTV
+  - Business recommendations for retention and targeting
 
 
-## 🛠️ Dependencies
-
-- Python 3.8+
-- pandas
-- numpy
-- scikit-learn
-- matplotlib / seaborn
-- xgboost (if used)
-- jupyter
-
-Install all dependencies using:
-```bash
-pip install -r requirements.txt
